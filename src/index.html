@@ -6,8 +6,9 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
-  <body class="mt-10 my-8">
-    <div class="flex flex-col justify-center items-center bg-gray-950 rounded-lg">
+  <body class="bg-gray-950">
+   <div class="Container mx-auto">
+    <div class="flex flex-col justify-center items-center">
       <div class="flex flex-col justify-center items-center mt-20">
         <h1 class="text-white text-5xl font-bold">
           Simple pricing, no commitment
@@ -26,9 +27,9 @@
         <button type="button" class=" text-white rounded-3xl  py-2 px-5" id="white-btn">Annually</button>
       </div>
 
-      <div class="mt-20 grid grid-cols-3 w-full px-10 gap-x-[0.75] ">
+      <div class="mt-20 grid grid-cols-7 ">
 
-        <div class="bg-slate-900 p-6 flex flex-col rounded-t-2xl shadow-sm shadow-slate-500">
+        <div class="bg-slate-900 p-6 flex flex-col rounded-l-2xl shadow-sm shadow-slate-500 col-start-1 col-end-3 row-start-2 row-end-3">
           <h3 class="text-slate-50 font-semibold">Growth</h3>
           <div class="flex gap-5 mt-2">
             <p class="text-slate-50 text-4xl font-bold">$30</p>
@@ -58,7 +59,7 @@
           </div>
         </div>
 
-        <div class="bg-slate-100 p-6 flex flex-col rounded-2xl translate-y-5 shadow-lg shadow-gray-600">
+        <div class="bg-slate-100 p-6 flex flex-col rounded-2xl shadow-lg shadow-gray-600 col-start-3 col-end-6 row-start-1 row-end-4">
           <h3 class="text-black font-semibold">Scale</h3>
           <div class="flex gap-5 mt-2">
             <p class="text-black text-4xl font-bold">$60</p>
@@ -99,7 +100,7 @@
           </div>
         </div>
 
-        <div class="bg-slate-900 p-6 flex flex-col rounded-t-2xl shadow-sm shadow-slate-500">
+        <div class="bg-slate-900 p-6 flex flex-col rounded-r-2xl shadow-sm shadow-slate-500 col-start-6 col-end-8 row-start-2 row-end-3">
           <h3 class="text-slate-50 font-semibold">Growth</h3>
           <div class="flex gap-5 mt-2">
             <p class="text-slate-50 text-4xl font-bold">$30</p>
@@ -135,6 +136,7 @@
     </div>
     <div class="bg-slate-100 min-h-[300px] "></div>
     </div>
+   </div>
     <script src="./main.js"></script>
   </body>
 </html>
